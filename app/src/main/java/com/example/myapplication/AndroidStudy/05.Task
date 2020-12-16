@@ -22,3 +22,9 @@ LaunchMode      다중허용
 ---------------------------------------------------------------------------------
 - singleTask       X
 - singleInstance   X
+
+- 인텐트 플레그
+FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_SINGLE_TOP
+FLAG_ACTIVITY_CLEAR_TOP
+등등이 있다
