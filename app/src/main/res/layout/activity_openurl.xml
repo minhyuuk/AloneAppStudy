@@ -4,16 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="checkmyskill.OpenUrl">
+    tools:context="checkmyskill.OpenUrl"
+    android:orientation="vertical"
+    >
 
     <EditText
         android:id="@+id/EditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
         android:ems="10"
         android:hint="주소를 입력해주세요"
         android:inputType="textPersonName"
-        android:text="" />
+
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="인터넷 페이지 열기" />
 
 </LinearLayout>
