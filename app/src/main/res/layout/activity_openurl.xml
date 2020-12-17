@@ -12,16 +12,16 @@
         android:id="@+id/EditText"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:padding="16dp"
         android:ems="10"
-        android:hint="주소를 입력해주세요"
-        android:inputType="textPersonName"
-
-
-        />
+        android:textColorHint="#3F51B5"
+        android:hint="주소를 입력해주세요" />
 
     <Button
+        android:id="@+id/Open"
         android:layout_width="150dp"
         android:layout_height="50dp"
+        android:padding="8dp"
         android:text="인터넷 페이지 열기" />
 
 </LinearLayout>
