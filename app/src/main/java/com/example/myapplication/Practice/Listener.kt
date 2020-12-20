@@ -1,10 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.Practice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.TextView
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_listener.*
 
 class Listener : AppCompatActivity() {

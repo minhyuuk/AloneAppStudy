@@ -1,4 +1,4 @@
-package checkmyskill
+package com.example.myapplication.checkmyskill
 
 import android.content.Intent
 import android.net.Uri

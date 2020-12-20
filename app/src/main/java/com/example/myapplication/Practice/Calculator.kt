@@ -1,9 +1,8 @@
-package com.example.myapplication
+package com.example.myapplication.Practice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import com.example.myapplication.Kotlin.plus
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_calculator.*
 
 class Calculator : AppCompatActivity() {
