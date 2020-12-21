@@ -13,4 +13,10 @@
         android:textSize="50dp"
         android:text="안녕하세요"/>
 
+    <fragment
+        android:id="@+id/fragment_one"
+        android:name="com.example.myapplication.Practice.FragmentOne"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
 </LinearLayout>
