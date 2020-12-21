@@ -18,5 +18,16 @@
         android:name="com.example.myapplication.Practice.FragmentOne"
         android:layout_width="match_parent"
         android:layout_height="300dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ㅎㅇㅎㅇ"/>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#673AB7"
+        android:orientation="vertical"/>
 
 </LinearLayout>
