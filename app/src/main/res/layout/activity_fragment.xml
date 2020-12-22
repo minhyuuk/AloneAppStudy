@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="50dp"
-        android:text="안녕하세요"/>
+        android:text="Hello"/>
 
     <fragment
         android:id="@+id/fragment_one"
@@ -22,7 +22,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ㅎㅇㅎㅇ"/>
+        android:text="Click !"/>
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
