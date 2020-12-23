@@ -12,17 +12,23 @@
         android:layout_height="wrap_content"
         android:textSize="50dp"
         android:text="Hello"/>
+<!--        주석을 제거하게 된다면 fragmentOne의 타입이 2개가 있으므로 시작이 되지 않는다.   -->
+<!--        <fragment-->
+<!--        android:id="@+id/fragment_one"-->
+<!--        android:name="com.example.myapplication.Practice.FragmentOne"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"/>-->
 
-    <fragment
-        android:id="@+id/fragment_one"
-        android:name="com.example.myapplication.Practice.FragmentOne"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"/>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click !"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disappear !"/>
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
