@@ -29,11 +29,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="사라지게 !"/>
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="전달 !"/>
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="#673AB7"
-        android:orientation="vertical"/>
+        android:orientation="vertical" />
 
 </LinearLayout>
