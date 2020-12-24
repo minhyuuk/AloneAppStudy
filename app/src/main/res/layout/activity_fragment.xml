@@ -23,12 +23,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click !"/>
+        android:text="클릭 !"/>
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Disappear !"/>
+        android:text="사라지게 !"/>
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
