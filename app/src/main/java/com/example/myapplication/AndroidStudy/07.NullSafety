@@ -27,3 +27,7 @@ null.setOnClickListener (에러)
 button?.setOnClickListener
 // Null이 아닐 때 , 즉 100% 확신할 때 사용한다. (사용 비추, 100%인 건 없지롱)
 button!!.setOnClickListener
+
+Null이 될 수 있는 타입
+Int, Double, Float, Class     -> Null이 될 수 없는 타입
+Int?, Double?, Float?, Class? -> Null이 될 수 있는 타입
