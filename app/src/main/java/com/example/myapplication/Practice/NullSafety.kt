@@ -26,5 +26,6 @@ class NullSafety : AppCompatActivity() {
     }
     fun plus2 (a : Int, b : Int?) : Int?{
         return b?.plus(a)
+        
     }
 }
