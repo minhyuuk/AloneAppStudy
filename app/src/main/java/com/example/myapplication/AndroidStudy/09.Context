@@ -11,5 +11,5 @@ ex : 앱의 뒤로가기 버튼, xml 속성, intent 등등
 앱을 개발할 수 있도록 구글에서 많이 만들어주었다. 이런 걸 사용하기 위해서는 context가 필요한 경우가 많다.
 
 종류
-- activity : context
-- application : context
+- activity : context     (주변정보) -> Activity의 주변정보
+- application : context  (주변정보) -> Application의 주변정보
