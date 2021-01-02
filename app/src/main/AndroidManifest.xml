@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Practice.context">
+        <activity android:name=".Practice.Thread">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Practice.Resource">
+        <activity android:name=".Practice.context">
+
         </activity>
+        <activity android:name=".Practice.Resource"></activity>
         <activity android:name=".Practice.NullSafety" />
         <activity android:name=".Practice.FragmentActivity" />
         <activity android:name=".checkmyskill.OpenUrl" />
