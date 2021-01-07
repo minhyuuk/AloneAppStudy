@@ -1,0 +1,13 @@
+
+
+
+Listview
+- 유사하게 반복되는 리스트를 그리기 위한 도구
+
+Listview를 그리는 방법
+
+- Addview
+    Item을 담을 XML을 만들어준다 ->  XML에 내용을 채워준다 -> ContainerView에 더해준다. (반복)
+
+- Listview -> 예전에 많이 사용되었다
+- Recycleview -> 최근에 가장 많이 사용되고 있고 가장 효율이 높다
