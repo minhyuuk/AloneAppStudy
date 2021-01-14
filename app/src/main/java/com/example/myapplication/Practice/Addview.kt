@@ -16,7 +16,7 @@ class Addview : AppCompatActivity() {
         // Item List 준비 완료
         val carList = ArrayList<CarForList>()
         for(i in 0 until 10){
-            carList.add(CarForList("" + i + "번쨰 자동차", ""+i+"순위 엔진 "))
+            carList.add(CarForList("" + i + "번째 자동차", "" + i + "순위 엔진 "))
         }
             var container = findViewById<LinearLayout>(R.id.AddviewContainer)
 //            var inflater = layoutInflater.from(this@AddView)
