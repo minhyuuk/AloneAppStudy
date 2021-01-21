@@ -1,10 +1,8 @@
-package com.example.myapplication.Practice
+package com.example.myapplication.Kotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.speech.tts.TextToSpeech
 import android.widget.LinearLayout
-import android.widget.TextView
 import com.example.myapplication.R
 
 class Addview : AppCompatActivity() {
@@ -16,7 +14,12 @@ class Addview : AppCompatActivity() {
         // Item List 준비 완료
         val carList = ArrayList<CarForList>()
         for(i in 0 until 10){
-            carList.add(CarForList("" + i + "번째 자동차", "" + i + "순위 엔진 "))
+            carList.add(
+                CarForList(
+                    "" + i + "번째 자동차",
+                    "" + i + "순위 엔진 "
+                )
+            )
         }
             var container = findViewById<LinearLayout>(R.id.AddviewContainer)
 //            var inflater = layoutInflater.from(this@AddView)
