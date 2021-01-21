@@ -21,7 +21,7 @@ fun main(args:Array<String>){
     println(num2)
     println(hello2)
     println(point2)
-    
+
 
 //  var은 값을 변형시킬 수 있다. 바꾸어도 오류가 나지 않는다.
     num1 = 100
