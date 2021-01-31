@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Practice.AddViewActivity"></activity>
-        <activity android:name=".Kotlin.Addview">
+        <activity android:name=".Practice.ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Practice.LibraryActivity"></activity>
+        <activity android:name=".Practice.AddViewActivity" />
+        <activity android:name=".Kotlin.Addview">
+
+        </activity>
+        <activity android:name=".Practice.LibraryActivity" />
         <activity android:name=".Practice.Thread" />
         <activity android:name=".Practice.context" />
         <activity android:name=".Practice.Resource" />
