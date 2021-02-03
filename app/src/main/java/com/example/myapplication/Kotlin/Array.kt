@@ -51,5 +51,8 @@ class Array : AppCompatActivity() {
         var tenthValue = intArray[10]
         Log.d("Array","열 번째 intArray의 값은 ${tenthValue}입니다.")
 
+        Log.d("Array", "오늘의 날짜는 ${daytArray[0]}")
+        Log.d("Array", "내일의 날짜는 ${daytArray[5]}")
+
     }
 }
