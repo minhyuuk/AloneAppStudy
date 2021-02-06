@@ -34,22 +34,22 @@ fun hello(first: Int, second: Int = 5): Unit {
 
 }
 
-fun main(args: Array<String>) {
-
-    // 함수를 호출 하는 방법
-    val result = plus(10, 20)
-    println(result)
-
-    // 인수를 명시적으로 전달하는 방법
-    val result2 = plus(first = 20, second = 30)
-    println(result2)
-
-    // 디폴트 값을 갖는 함수 호출하기
-    println()
-    val result4 = plusFive(10, 20)
-    println(result4)
-    val result5 = plusFive(10)
-    println(result5)
-
-
-}
+//fun main(args: Array<String>) {
+//
+//    // 함수를 호출 하는 방법
+//    val result = plus(10, 20)
+//    println(result)
+//
+//    // 인수를 명시적으로 전달하는 방법
+//    val result2 = plus(first = 20, second = 30)
+//    println(result2)
+//
+//    // 디폴트 값을 갖는 함수 호출하기
+//    println()
+//    val result4 = plusFive(10, 20)
+//    println(result4)
+//    val result5 = plusFive(10)
+//    println(result5)
+//
+//
+//}
