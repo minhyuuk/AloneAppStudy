@@ -1,6 +1,6 @@
 package com.example.myapplication.Kotlin
 
-fun main(args:Array<String>){
+fun main(args:Array){
 
     // Immutable Collections (변경 불가)
     // List -> 중복을 허용한다

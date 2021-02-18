@@ -27,4 +27,4 @@ var stringList = mutableListOf<String>()
 // stringList.set(2,"Monday")
 
 // 삭제
-// stringList.removeAt(1) 
+// stringList.removeAt(1)

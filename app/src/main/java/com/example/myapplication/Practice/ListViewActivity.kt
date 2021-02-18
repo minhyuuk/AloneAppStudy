@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
+import android.widget.Toast
 import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_list_view.*
 
@@ -22,6 +23,14 @@ class ListViewActivity : AppCompatActivity() {
         }
         val adapter = ListViewAdapter(carList,this@ListViewActivity)
         listview.adapter = adapter
+        listview.setOnItemClickListener{ parent, view, positon, id ->
+            val carName = (adapter.getItem(positon) as CarForList).name
+            val carEngine = (adapter.getItem(positon) as CarForList).name
+
+            Toast.makeText(this@ListViewActivity, carName + " " + carEngine, Toast.LENGTH_SHORT).show()
+        }
+
+
     }
 }
 
