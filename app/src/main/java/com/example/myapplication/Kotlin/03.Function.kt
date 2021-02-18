@@ -11,28 +11,28 @@ package com.example.myapplication.Kotlin
 //      return 반환값
 //}
 
-fun plus(first: Int, second: Int): Int {
-
-    println(first)
-    println(second)
-
-    val result: Int = first + second
-    return result
-
-}
+//fun plus(first: Int, second: Int): Int {
+//
+//    println(first)
+//    println(second)
+//
+//    val result: Int = first + second
+//    return result
+//
+//}
 
 // - 디폴트 값을 갖는 함수 만들기
-fun plusFive(first: Int, second: Int = 5): Int {
-    val result: Int = first + second
-    return result
-}
+//fun plusFive(first: Int, second: Int = 5): Int {
+//    val result: Int = first + second
+//    return result
+//}
 
 // - 반환값이 없는 함수 만들기
-fun hello(first: Int, second: Int = 5): Unit {
+//fun hello(first: Int, second: Int = 5): Unit {
 
-    val result2: Int = first + second
+//    val result2: Int = first + second
 
-}
+//}
 
 //fun main(args: Array<String>) {
 //
