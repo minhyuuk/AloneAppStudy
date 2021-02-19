@@ -43,10 +43,33 @@ class ListViewAdapter(
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
+//        val view : View
+//        val holder : ViewHolder
+//
+//        if (convertView = null) {
+//            view = layoutInflater.inflate(R.layout.item_view, null)
+//            holder = ViewHolder()
+//
+//            holder.carName = view.findViewById(R.id.car_name)
+//            holder.carEngine = view.findViewById(R.id.car_engine)
+//
+//            view.tag = holder
+//        }else {
+//            holder = convertView.tag as ViewHolder
+//            view = convertView
+//        }
+//        holder.carName?.setText(carForList.get(position).name)
+//        holder.carEngine?.setText(carForList.get(position).engine)
+//        return view
+
+
+
+
+
         /** addview와 굉장히 유사함 **/
         val layoutInflater = LayoutInflater.from(context)
         val view = layoutInflater.inflate(R.layout.item_view, null)
-        var carNameTextView = view.findViewById<TextView>(R.id.car_name)
+        var carNameTextView = view.findViewById<TextView>(R.id.car_name) // -> findViewbyId를 개선하기 위해 viewholder를 사용한다
         var carEngineTextView = view.findViewById<TextView>(R.id.car_engine)
 
         carNameTextView.setText(carForList.get(position).name)
@@ -68,5 +91,12 @@ class ListViewAdapter(
     override fun getCount(): Int {
         return carForList.size // 전체 사이즈를 알려주는 부분
     }
+
+
+}
+// android developer에서도 viewholder 사용을 권장하므로 viewholder방식 사용 권장
+class ViewHolder{
+    var carName: TextView? = null
+    var carEngine : TextView? = null
 
 }
