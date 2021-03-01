@@ -1,0 +1,20 @@
+
+
+배민에서 치킨 피자 클릭하면 치킨매장, 피자매장으로
+화면이 바뀌는 그런 기능을 제공하는 친구가 이친굽니다.
+
+탭을 클릭할 시 메인 화면이 변경되는 화면을 그릴 때
+Tablayout과 Pager를 같이 사용합니다.
+
+Tablayout, Pager
+
+Pager ( page + er )
+- 종이 넘기듯이 화면을 넘겨주는 역할
+
+TabLayout
+- 탭을 담당하는 역할. Tab 예시 : 메인|로그인|설정 등
+
+
+Adapter
+
+- Tablayout과 pager를 연결해주는 역할
