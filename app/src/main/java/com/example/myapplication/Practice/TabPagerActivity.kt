@@ -7,8 +7,12 @@ import android.os.Parcelable
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
+import androidx.viewpager.widget.ViewPager
 import com.example.myapplication.R
+import com.example.myapplication.databinding.ActivityTabPagerBinding
+import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_tab_pager.*
+
 
 class TabPagerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,11 +20,34 @@ class TabPagerActivity : AppCompatActivity() {
         setContentView(R.layout.activity_tab_pager)
 
 
+
         // 텝에 사용할 텍스트를 설정한다.
         tab_layout.addTab(tab_layout.newTab().setText("One"))
         tab_layout.addTab(tab_layout.newTab().setText("Two"))
         tab_layout.addTab(tab_layout.newTab().setText("Three"))
+
+        val pagerAdapter = PagerAdapter(supportFragmentManager, 3)
+        ViewPager.adapter = pagerAdapter
+        tab_layout.addOnTabSelectedListener(object:TabLayout.OnTabSelectedListener{
+            override fun onTabSelected(tab: TabLayout.Tab?) {
+                ViewPager.currentItem = tab!!.position
+            }
+
+            override fun onTabUnselected(tab: TabLayout.Tab?) {
+
+            }
+
+            override fun onTabReselected(tab: TabLayout.Tab?) {
+
+            }
+
+
+        })
+            ViewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tab_layout))
+//        -> 페이져가 이동했을 때 탭을 이동시키는 코드
+
     }
+
 }
 
 class PagerAdapter(

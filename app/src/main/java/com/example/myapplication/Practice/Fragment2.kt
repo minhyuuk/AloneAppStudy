@@ -21,7 +21,7 @@ class Fragment2 : Fragment() {
         // inflater  -> 뷰를 그려주는 친구
         // container -> 부모 뷰
 
-        return inflater.inflate(R.layout.fragment_one,container,false)
+        return inflater.inflate(R.layout.fragment_two,container,false)
 
     }
 }
