@@ -2,14 +2,10 @@ package com.example.myapplication.Practice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Parcel
-import android.os.Parcelable
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import androidx.viewpager.widget.ViewPager
 import com.example.myapplication.R
-import com.example.myapplication.databinding.ActivityTabPagerBinding
 import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_tab_pager.*
 
@@ -26,7 +22,7 @@ class TabPagerActivity : AppCompatActivity() {
         tab_layout.addTab(tab_layout.newTab().setText("Two"))
         tab_layout.addTab(tab_layout.newTab().setText("Three"))
 
-        val pagerAdapter = PagerAdapter(supportFragmentManager, 3)
+        val pagerAdapter = FragmentPagerAdapter(supportFragmentManager, 3)
         ViewPager.adapter = pagerAdapter
         tab_layout.addOnTabSelectedListener(object:TabLayout.OnTabSelectedListener{
             override fun onTabSelected(tab: TabLayout.Tab?) {
@@ -50,7 +46,7 @@ class TabPagerActivity : AppCompatActivity() {
 
 }
 
-class PagerAdapter(
+class FragmentPagerAdapter(
     fragmentManager: FragmentManager,
     val tabCount: Int
 ) : FragmentStatePagerAdapter(fragmentManager) {
