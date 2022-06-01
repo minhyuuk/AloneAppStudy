@@ -1,3 +1,8 @@
-## This is a study report that I wrote when I first started Kotlin.
-## 제가 코틀린을 입문할 때 작성한 공부 레포지터리입니다.
-2020.12.14 ~ 2021.03.07
+
+# Alone App Study
+**Kotlin**의 **기본 개념**과 <br>
+**안드로이드**에 대해 공부하면서 작성했습니다.<br>
+__Kotlin__ 입문 Repository 입니다.<br><br>
+강의를 보며 공부했습니다.<br>
+> 2020.12.14 ~ 2021.03.07
+
